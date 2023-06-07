@@ -9,31 +9,35 @@
 </head>
 <body>
 
-    <nav>
-        <h2>Header Logo</h2>
-        <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-        </ul>
-    </nav>
+<header>
+        <nav>
+            <h2>Header Logo</h2>
 
-    <div class="content-1">
-        <div>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
-            <button class="sign-up-button"><a href="">Sign up</a></button>
+            <ul>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </nav>
+    
+        <div class="content-1">
+            <div class="card-1">
+                <h1 id="content-1-title">This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
+                <button class="sign-up-button"><a href="">Sign up</a></button>
+            </div>
+
+            <div class="card-1 placeholder">
+                <img id="action-img" src="images/action.jpg" alt="">
+            </div>
         </div>
-  
-        <div>
-            <p>this is a placeholder for an image</p>
-        </div>
-    </div>
+</header>
     
 
     <div class="content-2">
         <h1>Some random information.</h1>
         
+     <div class="card-2">
             <div class="card"> 
                 <div></div>
                 <p>this is some subtext under an illustration or image</p>
@@ -50,21 +54,27 @@
                 <div></div>
                 <p>this is some subtext under an illustration or image</p>
             </div>
+     </div>
     </div>
 
 
     <div class="content-3">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actuallyr ead it. Who knows? All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
+        <p id="quote-3"><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actuallyr ead it. Who knows? All I know is that it looks nice.</em></p>
+        <p id="quote-author">-Thor, God of Thunder</p>
     </div>
 
 
     <div class="content-4">
         <div>       
-            <h2>Call to action! It's time!</h2>
+            <h2 id="title-content-4">Call to action! It's time!</h2>
             <p>Sign up for our product by clicking that button right over there!</p>
         </div>
-        <button class="sign-up-button"><a href="#">Sign up</a></button>
+        <button id="sign-up-button-2"><a href="#">Sign up</a></button>
     </div>
+
+
+    <footer>
+        <p>Copyright © The Odin Project 2023</p>
+    </footer>
 </body>
 </html>
